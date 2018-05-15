@@ -4,7 +4,6 @@
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
-	transition: 0.1s;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -49,6 +48,7 @@ header{
 
 .header__menu-item a:hover{
 	border-bottom: 3px solid rgba(255,255,255,1);
+	transition: 0.1s;
 }
 
 .header__contacts-item a{
@@ -60,6 +60,7 @@ header{
 
 .socials a:hover{
 	color: #ff7b7b;
+	transition: 0.1s;
 }
 
 .header__text{
@@ -153,8 +154,17 @@ header{
 }
 
 .slide__item{
+	width: 100%;
+}
+
+.works__link{
+	display: block;
+	width: 85%;
 	margin: 0 auto;
-	width: 90%;
+}
+
+.works__link:hover{
+	opacity: 0.7;
 }
 
 /* CONTACTS SECTION */
@@ -203,6 +213,7 @@ header{
 
 .contacts__content-list-item:hover .ihover {
 	color: #FF7B7B
+	transition: 0.1s;
 }
 
 .contacts__content-list-item i{
@@ -276,7 +287,7 @@ header{
 	.contacts__caption {
     margin-bottom: 11vh;
 	}
-	.slide__item {
+	.works__link {
     width: 90%;
 	}
 }	
@@ -341,7 +352,7 @@ header{
 	.skills{
 		padding-top: 30vh;
 	}
-	.slide__item {
+	.works__link {
     width: 100%;
 	}
 	.works{
