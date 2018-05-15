@@ -132,7 +132,7 @@ header{
 	right: 10.4%;
 }
 
-/* WORKS SECTION */
+/* WORKS SECTION  */
 
 .works{
 	width: 100%;
@@ -154,8 +154,17 @@ header{
 }
 
 .slide__item{
+	width: 100%;
+}
+
+.works__link{
+	display: block;
+	width: 85%;
 	margin: 0 auto;
-	width: 90%;
+}
+
+.works__link:hover{
+	opacity: 0.7;
 }
 
 /* CONTACTS SECTION */
@@ -203,7 +212,11 @@ header{
 }
 
 .contacts__content-list-item:hover .ihover {
+<<<<<<< HEAD
 	color: #FF7B7B;
+=======
+	color: #FF7B7B
+>>>>>>> master
 	transition: 0.1s;
 }
 
@@ -278,7 +291,7 @@ header{
 	.contacts__caption {
     margin-bottom: 11vh;
 	}
-	.slide__item {
+	.works__link {
     width: 90%;
 	}
 }	
@@ -368,7 +381,7 @@ header{
 	.skills{
 		padding-top: 30vh;
 	}
-	.slide__item {
+	.works__link {
     width: 100%;
 	}
 	.works{
