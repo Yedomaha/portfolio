@@ -4,7 +4,6 @@
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
-	transition: 0.1s;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -49,6 +48,7 @@ header{
 
 .header__menu-item a:hover{
 	border-bottom: 3px solid rgba(255,255,255,1);
+	transition: 0.1s;
 }
 
 .header__contacts-item a{
@@ -60,6 +60,7 @@ header{
 
 .socials a:hover{
 	color: #ff7b7b;
+	transition: 0.1s;
 }
 
 .header__text{
@@ -131,7 +132,7 @@ header{
 	right: 10.4%;
 }
 
-/* WORKS SECTION  */
+/* WORKS SECTION */
 
 .works{
 	width: 100%;
@@ -202,7 +203,8 @@ header{
 }
 
 .contacts__content-list-item:hover .ihover {
-	color: #FF7B7B
+	color: #FF7B7B;
+	transition: 0.1s;
 }
 
 .contacts__content-list-item i{
@@ -312,6 +314,31 @@ header{
 	}
 	.contacts__photo {
     margin-left: 0; 
+	}
+}
+
+@media (max-height: 420px) and (orientation: landscape){
+	.skills{
+    	height: auto;
+    	padding: 30px 0 50px 0;	
+    }
+	.works{
+		height: auto;
+    	padding-bottom:50px;
+	}
+
+	.footer_caption{
+		display: none;
+	}
+	.header__text {
+    	margin-top: 6vh;	
+	}
+
+}
+
+@media (max-height: 320px) and (orientation: landscape){
+    .header__text {
+    font-size: 25pt;
 	}
 }
 
@@ -459,7 +486,7 @@ header{
 		margin-left: 15px;
 	}
 	.skills__list-item {
-    font-size: 15pt;
+    		font-size: 15pt;
 	}
 
 }
